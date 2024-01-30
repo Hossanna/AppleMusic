@@ -30,6 +30,7 @@ aside{
     width: 80%;
     float: right; 
     margin: 2% 0 0;
+    padding: 0 2%;
 }
 
 .section h2{
@@ -100,7 +101,7 @@ aside{
   .explore{
     display: flex;
     justify-content: space-between;
-    width: 30%;
+    width: 31%;
     margin: 1%;
     padding: 2%;
     background-color: #2a2a2a;
@@ -120,6 +121,7 @@ aside{
     font-size: .8em;
     width: 80%;
     float: right;
+    margin-top: 2%;
   }
   footer ul{
     display: flex;
