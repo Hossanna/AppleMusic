@@ -7,7 +7,7 @@
       margin: 0;
       padding: 0;
       display: flex;
-      background-color: #171616a7;
+      background-color: #1F1F1F;
       width: 1200px;
       overflow-x: hidden;
   }
@@ -119,7 +119,6 @@
       padding: 20px;
       margin-right: 20px;
       border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
   .card img {
@@ -218,7 +217,7 @@
 
   #rectangular-section {
       margin-top: 20px;
-      margin-left: 280px;
+      margin-left: 212px;
   }
 
   #rectangular-section-title {
@@ -258,7 +257,7 @@
 
   #four-images-section {
       margin-top: 20px;
-      margin-left: 280px;
+      margin-left: 212px;
   }
 
   #four-images-section-title {
@@ -295,7 +294,7 @@
 
   #browse-section {
       margin-top: 120px;
-      margin-left: 280px;
+      margin-left: 214px;
   }
 
   #browse-section-title {
@@ -338,7 +337,7 @@
 
   #four-images-section2 {
       margin-top: 20px;
-      margin-left: 280px;
+      margin-left: 212px;
   }
 
   #four-images-section-title {
