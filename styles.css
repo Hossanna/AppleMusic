@@ -274,11 +274,9 @@
   .four-image-card {
       flex: 0 0 auto;
       width: 150px;
-      background-color: #333;
-      padding: 20px;
+      padding: 0px;
       margin-right: 20px;
       border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
   .four-image-card img {
@@ -312,15 +310,14 @@
   .browse-image-card {
       flex: 0 0 auto;
       width: 500px;
-      background-color: #333;
       padding: 20px;
       margin-right: 20px;
       border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
   .browse-image-card img {
-      width: 100%;
+      width: 109%;
+      margin-left: -28px;
       border-radius: 8px;
   }
 
@@ -354,11 +351,9 @@
   .four-image-card {
       flex: 0 0 auto;
       width: 180px;
-      background-color: #333;
-      padding: 20px;
+      padding: 0px;
       margin-right: 7px;
       border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
   .four-image-card img {
