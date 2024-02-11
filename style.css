@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    background-color: #1f1f1f;
+    color: #d5d5d5;
+}
+
+body{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+aside{
+    width: 20%;
+    background-color: hsl(240deg 1.33% 14.71%);
+    height: 100vw;
+    position: fixed;
+}
+
+.section{
+    width: 80%;
+    float: right; 
+    margin: 2% 0 0;
+    padding: 0 2%;
+}
+
+.section h2{
+    padding: 15px;
+    padding-bottom: 0;
+    color: #fff;
+}
+
+.scroll-container {
+    display: flex;
+    overflow: auto;
+    width: 100%;
+  }
+  
+  .scroll-container div {
+    padding: 15px;
+    min-width: 20%;
+    height: fit-content;
+    cursor: pointer;
+    
+}
+
+.section1 div {
+    padding: 5px 25px;
+    padding-left: 7px;
+    min-width: 25%;
+    height: fit-content;
+    
+}
+
+.section2 div {
+    padding: 5px 25px;
+    padding-left: 7px;
+    min-width: 30%;
+    height: 240px;
+    
+}
+
+.section2 .scroll-container {
+    display: flex;
+    overflow-y: hidden;
+    width: 100%;
+  }
+
+.scroll-container img {
+    border-radius: 10px;
+    width: 100%; 
+    max-height: 80%;
+  }
+
+  .scroll-container div  a{
+    padding-left: 2%;
+    font-size: .85em;
+  }
+
+  .scroll-container div a:nth-child(4){
+    color: #bbbabafa;
+  }
+
+  div.scroll-container::-webkit-scrollbar{
+    display: none;
+  }
+
+  .section3{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .explore{
+    display: flex;
+    justify-content: space-between;
+    width: 31%;
+    margin: 1%;
+    padding: 2%;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    cursor: pointer;
+
+  }
+
+  .explore p,   .explore span{
+    color: #fa586a ;
+    background-color: #2a2a2a;
+  }
+
+  footer{
+    background-color: hsl(0deg 0% 26.67%);
+    padding: 2% 4%;
+    font-size: .8em;
+    width: 80%;
+    float: right;
+    margin-top: 2%;
+  }
+  footer ul{
+    display: flex;
+    background-color: hsl(0deg 0% 26.67%);
+    width: 50%;
+    justify-content: space-between;
+  }
+  footer li{
+    background-color: hsl(0deg 0% 26.67%);
+
+  }
+  footer p{
+    margin: 2% 0;
+    background-color: hsl(0deg 0% 26.67%);
+
+  }
+
+  /* #d7322d */
+  /* #efb5b4 */
