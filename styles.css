@@ -9,7 +9,7 @@
       display: flex;
       background-color: #1F1F1F;
       width: 1200px;
-      overflow-x: hidden;
+      /* overflow-x: hidden; */
   }
 
 
