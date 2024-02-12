@@ -8,13 +8,13 @@
       padding: 0;
       display: flex;
       background-color: #1F1F1F;
-      width: 1200px;
+      width: 100%;
       /* overflow-x: hidden; */
   }
 
 
   #sidebar {
-      width: 220px;
+      width: 20%;
       background-color: #171616a7;
       color: #fff;
       padding-top: 20px;
@@ -107,7 +107,7 @@
 
    #rectangular-section {
       margin-top: 20px;
-      margin-left: 212px;
+      margin-left: 250px;
   }
 
   #rectangular-section-title {
@@ -149,7 +149,9 @@
 
  #browse-section {
      margin-top: 120px;
-     margin-left: 214px;
+     width: 80%;
+     float: right;
+     /* margin-left: 214px; */
  }
 
  #browse-section-title {
@@ -230,7 +232,7 @@
  }
 #four-images-section2 {
     margin-top: 20px;
-    margin-left: 212px;
+    margin-left: 250px;
     cursor: pointer;
 }
 
@@ -326,6 +328,7 @@
       margin-left: 210px;
       position: fixed;
       width: 1110px;
+      z-index: 5;
   }
 
   .control-btn,
