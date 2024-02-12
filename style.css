@@ -3,7 +3,6 @@
     padding: 0;
     list-style: none;
     box-sizing: border-box;
-    background-color: #1f1f1f;
     color: #d5d5d5;
 }
 
@@ -116,7 +115,6 @@ aside{
   }
 
   footer{
-    background-color: hsl(0deg 0% 26.67%);
     padding: 2% 4%;
     font-size: .8em;
     width: 80%;
@@ -125,17 +123,12 @@ aside{
   }
   footer ul{
     display: flex;
-    background-color: hsl(0deg 0% 26.67%);
     width: 50%;
     justify-content: space-between;
   }
-  footer li{
-    background-color: hsl(0deg 0% 26.67%);
 
-  }
   footer p{
     margin: 2% 0;
-    background-color: hsl(0deg 0% 26.67%);
 
   }
 

@@ -1,634 +1,418 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Apple Music</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    lin
 </head>
+
 <body>
 
-    <aside>
+    <div id="sidebar">
+        <div id="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Apple_Music_logo.svg/2560px-Apple_Music_logo.svg.png" alt="Apple Logo" width="100">
+        </div>
 
-    </aside>
+        <div id="search-bar">
+            <input type="text" placeholder="Search...">
+        </div>
 
-    <main>
-        <section class="section">
-        
+        <div id="navigation">
+            <div class="nav-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/4457/4457852.png" alt="Listen Now" width="30">
+                <a href="#">Listen Now</a>
+            </div>
+            <div class="nav-item">
+                <img src="https://png.pngtree.com/png-vector/20230407/ourmid/pngtree-browsing-line-icon-vector-png-image_6691018.png" alt="Browse" width="30">
+                <a href="#">Browse</a>
+            </div>
+            <div class="nav-item">
+                <img src="https://static-00.iconduck.com/assets.00/radio-icon-512x376-r84j8cao.png" alt="Radio" width="30">
+                <a href="#">Radio</a>
+            </div>
+        </div>
+    </div>
 
-            <h2>Daily Top 100 ></h2>
-            <div class="scroll-container">
-    
-                <div>
-                    <img src="./images/global.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-    
-                </div> 
-                <div>
-                    <img src="./images/usa.webp" alt="" > 
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-    
-                </div> 
-                <div>
-                    <img src="./images/uk.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/can.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/mex.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/aust.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/japan.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>
-                <div>
-                    <img src="./images/espana.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>
-                <div>
-                    <img src="./images/france.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>
-                <div>
-                    <img src="./images/korea.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>       
-    
+    <div id="content">
+        <div id="navbar">
+            <div class="control-btn"><img src="https://www.svgrepo.com/show/392592/arrow-shuffle-small-direction-navigation.svg" alt="Shuffle"></div>
+            <div class="control-btn"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXiaLr7shmooqC5HCqU1I3vQf6eUYQ6n76bjziK3MqE_5feUbI9uq5-dpuC_bOd7759A&usqp=CAU" alt="Previous"></div>
+            <div class="control-btn"><img src="https://png.pngtree.com/png-clipart/20190619/original/pngtree-vector-play-icon-png-image_4013500.jpg" alt="Play"></div>
+            <div class="control-btn"><img src="https://cdn2.iconfinder.com/data/icons/music-player-black/32/music_player_black-05-512.png" alt="Next"></div>
+
+            <div id="album-artwork">
+                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">Album
+                    </div>
             </div>
-        </section>
-    
-        <section class="section">
+
+            <div id="track-info">
+                <h3>Track Title</h3>
+                <p>Artist Name</p>
+            </div>
+
+            <div id="volume-control">
+                <img src="https://static.thenounproject.com/png/416799-200.png" alt="Volume">
+            </div>
+
+            <div id="que-btn">Que</div>
+            <div id="sign-in-btn">
+                <img src="https://www.shutterstock.com/image-vector/user-login-authenticate-icon-human-600nw-1365533969.jpg" alt="Sign In" />
+                Sign In
+            </div>
+        </div>
+<div id="browse-section">
+    <div id="browse-section-title">Browse</div>
+
+    <hr class="underline"> <!-- Underline -->
+
+    <div class="scrollable-container">
+        <div class="browse-images-container">
+            <div class="browse-image-card">
+                <h2 class="header-text small">Spatial Audio</h2> <!-- Small Header Text -->
+                <h2 class="header-text big">Comig Home</h2> <!-- Big Header Text -->
+                <h2 class="header-text small">Usher</h2> <!-- Small Header Text -->
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/a2/b7/77/a2b7773c-72de-1c15-a630-da04b618327a/3434a669-88eb-4f3e-8858-9171fc06c2c7.png/480x275sr.webp" alt="Browse Image 1">
+            </div>
             
-    
-            <h2>Daily Top 100 ></h2>
-            <div class="scroll-container">
-    
-                <div>
-                    <img src="./images/ny.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-    
-                </div> 
-                <div>
-                    <img src="./images/la.webp" alt="" > 
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-    
-                </div> 
-                <div>
-                    <img src="./images/atl.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/nash.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/mia.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/chic.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/houston.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>
-                <div>
-                    <img src="./images/sanj.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>
-                <div>
-                    <img src="./images/sanf.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>
-                <div>
-                    <img src="./images/seattle.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>       
-    
+
+            <div class="browse-image-card2">
+                <h2 class="header-text small">Live from Vegas</h2> <!-- Small Header Text -->
+                <h2 class="header-text small">Usher</h2> <!-- Small Header Text -->
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/9c/95/99/9c959966-9176-e521-8284-2e4f5e5334b5/source/480x275sr.webp" alt="Browse Image 2">
             </div>
-        </section>
-    
-        <section class="section">
-            
-    
-            <h2>Daily Top 100 ></h2>
-            <div class="scroll-container">
-    
-                <div>
-                    <img src="./images/zara.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-    
-                </div> 
-                <div>
-                    <img src="./images/zane.webp" alt="" > 
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-    
-                </div> 
-                <div>
-                    <img src="./images/rebecca.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/bannen.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/matt.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/dotty.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/est.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>
-                <div>
-                    <img src="./images/tiera.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>
-                <div>
-                    <img src="./images/radio.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>
-                <div>
-                    <img src="./images/nade.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>       
-    
+
+            <div class="arrow-container">
+                <div class="arrow">&#9654;</div>
             </div>
-        </section>
-    
-        <section class="section section1">
-            
-    
-            <h2>Daily Top 100 ></h2>
-            <div class="scroll-container">
-    
-                <div>
-                    <img src="./images/kpop.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-    
-                </div> 
-                <div>
-                    <img src="./images/usher.webp" alt="" > 
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-    
-                </div> 
-                <div>
-                    <img src="./images/high.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/hits.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/matt.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/dotty.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/est.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>
-                <div>
-                    <img src="./images/tiera.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>
-                <div>
-                    <img src="./images/radio.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>
-                <div>
-                    <img src="./images/nade.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>       
-    
+        </div>
+    </div>
+</div>
+
+<div id="four-images-section2">
+    <div id="four-images-section-title">Featured Artists</div>
+
+    <div class="four-images-container">
+        <div class="four-image-card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/bb/ca/7f/bbca7fd8-a0b0-7f5c-7958-41f76d1f9506/76d4fa53-bd58-420e-a666-e3179500a7ca.png/316x316SC.DN01.webp?l=en-US" alt="Image 1">
+            <div class="overlay-icons">
+                <img src="https://e7.pngegg.com/pngimages/886/387/png-clipart-line-triangle-brand-play-button-play-button-icon-angle-text-thumbnail.png" alt="Play Icon">
+                <img src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/more-512.png" alt="More Icon">
             </div>
-        </section>
-    
-        <section class="section">
-            
-    
-            <h2>Daily Top 100 ></h2>
-            <div class="scroll-container">
-    
-                <div>
-                    <img src="./images/arthouse.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-    
-                </div> 
-                <div>
-                    <img src="./images/eyes.webp" alt="" > 
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-    
-                </div> 
-                <div>
-                    <img src="./images/mitski.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/poorthings.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/signal.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/blvd.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/fka.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>
-                <div>
-                    <img src="./images/blackstar.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>
-                <div>
-                    <img src="./images/score.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>
-                <div>
-                    <img src="./images/aro.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>       
-    
+            <div class="text-wrapper">
+                <div class="p-top"><a href="#">La Oficial</a></div>
+                <div class="p-bottom"><a href="#">Apple Music Musica Mexicana</a></div>
             </div>
-        </section>
-    
-        <section class="section section2">
-            
-    
-            <h2>Daily Top 100 ></h2>
-            <div class="scroll-container">
-    
-                <div>
-                    <img src="./images/justin.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-    
-                </div> 
-                <div>
-                    <img src="./images/kali.webp" alt="" > 
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-    
-                </div> 
-                <div>
-                    <img src="./images/lopez.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/blitz.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/nicki.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/elton.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/tres.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>
-                <div>
-                    <img src="./images/billy.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>
-                <div>
-                    <img src="./images/lover.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>
-                <div>
-                    <img src="./images/dolly.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>       
-    
+        </div>
+
+                <div class="four-image-card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/f9/b0/f2/f9b0f282-14e0-e8a4-364b-8c98652ae906/U0MtTVMtV1ctSXRfc19MaXRfLUFEQU1fSUQ9MTEyNDU2MDIyOC5wbmc.png/316x316SC.DN01.webp?l=en-US" alt="Image 1">
+            <div class="overlay-icons">
+                <img src="https://e7.pngegg.com/pngimages/886/387/png-clipart-line-triangle-brand-play-button-play-button-icon-angle-text-thumbnail.png" alt="Play Icon">
+                <img src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/more-512.png" alt="More Icon">
             </div>
-        </section>
-    
-    
-        <section class="section">
-            
-    
-            <h2>Daily Top 100 ></h2>
-            <div class="scroll-container">
-    
-                <div>
-                    <img src="./images/essentials.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-    
-                </div> 
-                <div>
-                    <img src="./images/orq.webp" alt="" > 
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-    
-                </div> 
-                <div>
-                    <img src="./images/lilrope.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/sad.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/stallion.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/neckdeep.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/fe3.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>
-                <div>
-                    <img src="./images/sol.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>
-                <div>
-                    <img src="./images/penith.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>
-                <div>
-                    <img src="./images/stupid.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>       
-    
+            <div class="text-wrapper">
+                <div class="p-top"><a href="#">It's Lit!</a></div>
+                <div class="p-bottom"><a href="#">Apple Music Hip-Hop</a></div>
             </div>
-        </section>
-    
-        <section class="section">
-            
-    
-            <h2>Daily Top 100 ></h2>
-            <div class="scroll-container">
-    
-                <div>
-                    <img src="./images/antidote.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-    
-                </div> 
-                <div>
-                    <img src="./images/alasala.webp" alt="" > 
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-    
-                </div> 
-                <div>
-                    <img src="./images/whack.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/man.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/argylle.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/lopez.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div> 
-                <div>
-                    <img src="./images/sunshine.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>
-                <div>
-                    <img src="./images/starr.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>
-                <div>
-                    <img src="./images/home.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>
-                <div>
-                    <img src="./images/nade.webp" alt="" >
-                    <a href="">Top 100: Global</a> <br>
-                    <a href="">Apple Music</a> 
-                    
-                </div>       
-    
+        </div>
+
+                <div class="four-image-card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/12/54/74/12547409-edb9-709d-b8dc-df632d892688/5c3c2860-d66a-4e52-8e3e-5cf5d54f50fc.png/316x316SC.DN01.webp?l=en-US" alt="Image 1">
+            <div class="overlay-icons">
+                <img src="https://e7.pngegg.com/pngimages/886/387/png-clipart-line-triangle-brand-play-button-play-button-icon-angle-text-thumbnail.png" alt="Play Icon">
+                <img src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/more-512.png" alt="More Icon">
             </div>
-        </section>
-    
-        <section class="section">
-            <h2>More to Explore</h2>
-            <div class="section3">
-                <div class="explore">
-                    <p>Send free trials to friends</p>
-                    <span>></span>
-                </div>
-                <div class="explore">
-                    <p>Moods and activities</p>
-                    <span>></span>
-                </div>
-                <div class="explore">
-                    <p>Music videos</p>
-                    <span>></span>
-                </div>
-                <div class="explore">
-                    <p>Browse by genres</p>
-                    <span>></span>
-                </div>
-                <div class="explore">
-                    <p>Worldwide</p>
-                    <span>></span>
-                </div>
-                <div class="explore">
-                    <p>Spartial audio</p>
-                    <span>></span>
-                </div>
-                <div class="explore">
-                    <p>Decades</p>
-                    <span>></span>
-                </div>
-                <div class="explore">
-                    <p>Charts</p>
-                    <span>></span>
-                </div>
+            <div class="text-wrapper">
+                <div class="p-top"><a href="#">Superbloom</a></div>
+                <div class="p-bottom"><a href="#">Apple Music Pop</a></div>
             </div>
-        </section>
-    
-        <footer>
-            <ul>
-                <li>United States</li>
-                <li>Espanol</li>
-                <li>France</li>
-                <li>Brazil</li>
-            </ul>
-            <p>Copyright &copy 2024 Apple Inc. All Rights Reserved</p>
-            <ul>
-                <li>Internet service terms</li>
-                <li>Apple music & privacy</li>
-                <li>Cookie warning</li>
-                <li>Support</li>
-                <li>Feedback</li>
-            </ul>
-        </footer>
-    </main>
+        </div>
+
+                <div class="four-image-card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/61/eb/0b/61eb0b60-c118-8111-2993-e46e2bba1cda/3fe6a931-bd14-45fa-8832-b6d3ef354c0e.png/316x316SC.DN01.webp?l=en-US" alt="Image 1">
+            <div class="overlay-icons">
+                <img src="https://e7.pngegg.com/pngimages/886/387/png-clipart-line-triangle-brand-play-button-play-button-icon-angle-text-thumbnail.png" alt="Play Icon">
+                <img src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/more-512.png" alt="More Icon">
+            </div>
+            <div class="text-wrapper">
+                <div class="p-top"><a href="#">Today's Hit's</a></div>
+                <div class="p-bottom"><a href="#">Apple Music Hits</a></div>
+            </div>
+        </div>
+
+                        <div class="four-image-card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/ab/15/f1/ab15f192-d32d-18d9-b595-4678f15e6b9c/ecdb031d-7f6c-4fa3-b748-6955e17ae883.png/316x316SC.DN01.webp?l=en-US" alt="Image 1">
+            <div class="overlay-icons">
+                <img src="https://e7.pngegg.com/pngimages/886/387/png-clipart-line-triangle-brand-play-button-play-button-icon-angle-text-thumbnail.png" alt="Play Icon">
+                <img src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/more-512.png" alt="More Icon">
+            </div>
+            <div class="text-wrapper">
+                <div class="p-top"><a href="#">New Music Daily</a></div>
+                <div class="p-bottom"><a href="#">Apple Music</a></div>
+            </div>
+        </div>
+            </div>
+</div>
+
+<div id="four-images-section2">
+    <div id="four-images-section-title">Now in Spatial Audio</div>
+
+    <div class="four-images-container">
+        <div class="four-image-card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/73/d8/db/73d8dbc2-0336-49c4-3d7d-96bb1c1e35a4/850053211478.jpg/316x316bf.webp" alt="Image 1">
+            <div class="overlay-icons">
+                <img src="https://e7.pngegg.com/pngimages/886/387/png-clipart-line-triangle-brand-play-button-play-button-icon-angle-text-thumbnail.png" alt="Play Icon">
+                <img src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/more-512.png" alt="More Icon">
+            </div>
+            <div class="text-wrapper">
+                <div class="p-top"><a href="#">What happened to the Beach?</a></div>
+                <div class="p-bottom"><a href="#">Declan McKenna</a></div>
+            </div>
+        </div>
+
+                <div class="four-image-card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Features/v4/5e/4b/bc/5e4bbc43-1e16-68da-7f94-e88227c3078a/c74941af-9255-43db-a34c-bbd47e993c47.png/316x316cc.webp" alt="Image 1">
+            <div class="overlay-icons">
+                <img src="https://e7.pngegg.com/pngimages/886/387/png-clipart-line-triangle-brand-play-button-play-button-icon-angle-text-thumbnail.png" alt="Play Icon">
+                <img src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/more-512.png" alt="More Icon">
+            </div>
+            <div class="text-wrapper">
+                <div class="p-top"><a href="#">Made for Spatial Audio</a></div>
+                <div class="p-bottom"><a href="#">Apple Music</a></div>
+            </div>
+        </div>
+
+                <div class="four-image-card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/88/5a/5a/885a5a60-fba1-86af-5bb9-b73eff30481a/196871575119.jpg/316x316bf.webp" alt="Image 1">
+            <div class="overlay-icons">
+                <img src="https://e7.pngegg.com/pngimages/886/387/png-clipart-line-triangle-brand-play-button-play-button-icon-angle-text-thumbnail.png" alt="Play Icon">
+                <img src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/more-512.png" alt="More Icon">
+            </div>
+            <div class="text-wrapper">
+                <div class="p-top"><a href="#">Venus</a></div>
+                <div class="p-bottom"><a href="#">Zara Larsson</a></div>
+            </div>
+        </div>
+
+                <div class="four-image-card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/c3/e9/13/c3e9133a-33ab-2faa-503d-2e6e73622de8/1c270a91-d62d-414d-b641-6f8172d5c084.png/316x316cc.webp" alt="Image 1">
+            <div class="overlay-icons">
+                <img src="https://e7.pngegg.com/pngimages/886/387/png-clipart-line-triangle-brand-play-button-play-button-icon-angle-text-thumbnail.png" alt="Play Icon">
+                <img src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/more-512.png" alt="More Icon">
+            </div>
+            <div class="text-wrapper">
+                <div class="p-top"><a href="#">Hits in Spatial Audio</a></div>
+                <div class="p-bottom"><a href="#">Apple Music Hits</a></div>
+            </div>
+
+        </div>
+            </div>
+</div>            
+
+
+                        <div class="four-image-card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cf/64/e5/cf64e5bf-0bb7-288e-b33a-58e1ea80a44a/24UMGIM03301.rgb.jpg/316x316bf.webp" alt="Image 1">
+            <div class="overlay-icons">
+                <img src="https://e7.pngegg.com/pngimages/886/387/png-clipart-line-triangle-brand-play-button-play-button-icon-angle-text-thumbnail.png" alt="Play Icon">
+                <img src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/more-512.png" alt="More Icon">
+            </div>
+            <div class="text-wrapper">
+                <div class="p-top"><a href="#">One Love</a></div>
+                <div class="p-bottom"><a href="#">Bob Marley & The Wailers</a></div>
+            </div>
+        </div>
+            </div>
+</div>  
+
+
+
+<div id="four-images-section2">
+    <div id="four-images-section-title">Featured Artists</div>
+
+    <div class="four-images-container">
+        <div class="four-image-card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/04/54/e2/0454e23a-0084-9826-36b3-3e628ae8384c/ecb54d82-515c-4d81-b7db-08152aa7f059.jpg/316x316bf.webp" alt="Image 1">
+            <div class="overlay-icons">
+                <img src="https://e7.pngegg.com/pngimages/886/387/png-clipart-line-triangle-brand-play-button-play-button-icon-angle-text-thumbnail.png" alt="Play Icon">
+                <img src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/more-512.png" alt="More Icon">
+            </div>
+            <div class="text-wrapper">
+                <div class="p-top"><a href="#">Super Bowl LVII MegaMix (DJ Mix)</a></div>
+                <div class="p-bottom"><a href="#">Jermaine Dupri</a></div>
+            </div>
+        </div>
+
+                <div class="four-image-card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/4b/f3/a5/4bf3a56d-1714-ce43-6b6c-b304bd74c0ec/2173de1b-e080-4562-a196-047c8baf4ba5.png/316x316bf.webp" alt="Image 1">
+            <div class="overlay-icons">
+                <img src="https://e7.pngegg.com/pngimages/886/387/png-clipart-line-triangle-brand-play-button-play-button-icon-angle-text-thumbnail.png" alt="Play Icon">
+                <img src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/more-512.png" alt="More Icon">
+            </div>
+            <div class="text-wrapper">
+                <div class="p-top"><a href="#">Super Bowl LVII Dance Party (DJ Mix)</a></div>
+                <div class="p-bottom"><a href="#">Tiesto</a></div>
+            </div>
+        </div>
+
+                <div class="four-image-card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/69/c1/98/69c198ba-4e17-ba61-7606-2189b2c30e17/ee8ecbb7-abb1-4dba-b313-ffe8f7b443b3.png/316x316bf.webp" alt="Image 1">
+            <div class="overlay-icons">
+                <img src="https://e7.pngegg.com/pngimages/886/387/png-clipart-line-triangle-brand-play-button-play-button-icon-angle-text-thumbnail.png" alt="Play Icon">
+                <img src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/more-512.png" alt="More Icon">
+            </div>
+            <div class="text-wrapper">
+                <div class="p-top"><a href="#">Super Bowl LVII Dance Party (DJ Mix)</a></div>
+                <div class="p-bottom"><a href="#">Gryffin</a></div>
+            </div>
+        </div>
+
+                <div class="four-image-card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ce/4a/1a/ce4a1a3d-f913-f9c3-ddc1-1ade08a9f478/a5ab1ea6-3d0d-4f46-be8f-44781a1775de.jpg/316x316bf.webp" alt="Image 1">
+            <div class="overlay-icons">
+                <img src="https://e7.pngegg.com/pngimages/886/387/png-clipart-line-triangle-brand-play-button-play-button-icon-angle-text-thumbnail.png" alt="Play Icon">
+                <img src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/more-512.png" alt="More Icon">
+            </div>
+            <div class="text-wrapper">
+                <div class="p-top"><a href="#">Super Bowl LVII Dance Party (DJ Mix)</a></div>
+                <div class="p-bottom"><a href="#">BLOND:ISH</a></div>
+            </div>
+        </div>
+
+                        <div class="four-image-card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/46/7c/d2/467cd255-b37d-7273-3f49-c9c7543dc034/66740166-4bf7-41ba-ba49-3bb7ba468937.png/316x316bf.webp" alt="Image 1">
+            <div class="overlay-icons">
+                <img src="https://e7.pngegg.com/pngimages/886/387/png-clipart-line-triangle-brand-play-button-play-button-icon-angle-text-thumbnail.png" alt="Play Icon">
+                <img src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/more-512.png" alt="More Icon">
+            </div>
+            <div class="text-wrapper">
+                <div class="p-top"><a href="#">Super Bowl LVII Dance Party (DJ Mix)</a></div>
+                <div class="p-bottom"><a href="#">A Hundred Drums</a></div>
+            </div>
+        </div>
+            </div>
+</div>  
+
+<div id="rectangular-section">
+                                            
+<div class="rectangular-image-container">
+<div class="rectangular-card">
+<img src="https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/96/25/cf/9625cf7b-b889-fb30-ff23-e358597dc586/bbbfb43c-e3d1-4e03-b0e0-ab2be5b4c737.png/340x191mv.webp" alt="Rectangular Image 1">
+<p>#OnRepeat</p>
+<p>Apple Music Hip-Hop</p>                                                
+</div>
+                                        
+<div class="rectangular-card">
+<img src="https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/7f/20/97/7f209714-d436-1d52-895a-33b39d996a54/5d7bf596-b954-4689-9d38-3e22023f135c.png/340x191mv.webp" alt="Rectangular Image 2">
+<p>#OnRepeat</p>
+<p>Apple Music Hip-Hop</p>                                                
+</div>
+                                        
+<div class="rectangular-card">
+<img src="https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/2e/c2/5c/2ec25c12-0337-185b-3cba-f15cd0f40a10/52663d36-2f27-40b4-b706-f2c71b1bab83.png/340x191mv.webp" alt="Rectangular Image 3">
+<p>#OnRepeat</p>
+<p>Apple Music Hip-Hop</p>                                               
+</div>
+                                        
+<div class="rectangular-card">
+<img src="https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/35/87/dc/3587dc01-5127-cb6e-c42f-d729f62531c6/4c63cbfb-839c-4d3f-aa2f-e8ccca2f52dc.png/340x191mv.webp" alt="Rectangular Image 4">
+<p>#OnRepeat</p>
+<p>Apple Music Hip-Hop</p>                                               
+</div>
+</div>
+</div>
+
+<div id="rectangular-section">                                                                                
+<div class="rectangular-image-container">
+<div class="rectangular-card">
+<img src="https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/7d/ae/40/7dae402b-58f0-54f7-65bf-ef599c61c6d1/source/340x191mv.webp"
+alt="Rectangular Image 1">
+<p>#OnRepeat</p>
+<p>Apple Music Hip-Hop</p>                                                                                        </div>
+<div class="rectangular-card">
+<img src="https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/c5/a2/10/c5a2106e-1e5a-c73f-81e3-483d269d1d68/source/340x191mv.webp" alt="Rectangular Image 2">
+<p>#OnRepeat</p>
+<p>Apple Music Hip-Hop</p>                                                                                        </div>
+                                                                                
+<div class="rectangular-card">
+<img src="https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/37/a9/45/37a945bb-b045-8b20-1468-fb4152f05c8a/source/340x191mv.webp" alt="Rectangular Image 3">
+<p>#OnRepeat</p>
+<p>Apple Music Hip-Hop</p>                                                                                        </div>
+                                                                                
+<div class="rectangular-card">
+<img src="https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/09/40/83/094083fa-3651-9262-b413-c538a09e68eb/93e07147-2b1d-4e00-a63b-bb990bc13c26.png/340x191mv.webp" alt="Rectangular Image 4">
+<p>#OnRepeat</p>
+<p>Apple Music Hip-Hop</p>                                                                                        </div>
+                                                                                        
+</div>
+</div>
+
+<div id="four-images-section2">
+    <div id="four-images-section-title">Featured Artists</div>
+
+    <div class="four-images-container">
+        <div class="four-image-card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/22/8e/e0/228ee05e-63a1-483a-3f31-e2793c5aed77/mza_1472324734210473378.png/316x316SC.FPSING01.webp?l=en-US" alt="Image 1">
+            <div class="overlay-icons">
+                <img src="https://e7.pngegg.com/pngimages/886/387/png-clipart-line-triangle-brand-play-button-play-button-icon-angle-text-thumbnail.png" alt="Play Icon">
+                <img src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/more-512.png" alt="More Icon">
+            </div>
+            <div class="text-wrapper">
+                <div class="p-top"><a href="#">USHER: Sing</a></div>
+                <div class="p-bottom"><a href="#">Apple Music</a></div>
+            </div>
+        </div>
+
+                <div class="four-image-card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/f9/b0/f2/f9b0f282-14e0-e8a4-364b-8c98652ae906/U0MtTVMtV1ctSXRfc19MaXRfLUFEQU1fSUQ9MTEyNDU2MDIyOC5wbmc.png/316x316SC.DN01.webp?l=en-US" alt="Image 1">
+            <div class="overlay-icons">
+                <img src="https://e7.pngegg.com/pngimages/886/387/png-clipart-line-triangle-brand-play-button-play-button-icon-angle-text-thumbnail.png" alt="Play Icon">
+                <img src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/more-512.png" alt="More Icon">
+            </div>
+            <div class="text-wrapper">
+                <div class="p-top"><a href="#">It's lit</a></div>
+                <div class="p-bottom"><a href="#">Apple Music Hip-Hop</a></div>
+            </div>
+        </div>
+
+                <div class="four-image-card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/64/3b/a9/643ba9e2-5c89-c300-ab3a-83bd5ee6457c/U0MtTVMtV1ctQWxsX0RheV9EYW5jZV9QYXJ0eS1BREFNX0lEPTEwNzM3NjI1MzYucG5n.png/316x316SC.DN01.webp?l=en-US" alt="Image 1">
+            <div class="overlay-icons">
+                <img src="https://e7.pngegg.com/pngimages/886/387/png-clipart-line-triangle-brand-play-button-play-button-icon-angle-text-thumbnail.png" alt="Play Icon">
+                <img src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/more-512.png" alt="More Icon">
+            </div>
+            <div class="text-wrapper">
+                <div class="p-top"><a href="#">All Day Dance Party</a></div>
+                <div class="p-bottom"><a href="#">Apple Music Dance</a></div>
+            </div>
+        </div>
+
+                <div class="four-image-card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/8a/d7/73/8ad773ea-c1bd-4823-7599-4d8f554bf7cd/U0MtTVMtV1ctUGlzdGVhci1BREFNX0lEPTExMjYxMzk2MjYucG5n.png/316x316SC.DN01.webp?l=en-US" alt="Image 1">
+            <div class="overlay-icons">
+                <img src="https://e7.pngegg.com/pngimages/886/387/png-clipart-line-triangle-brand-play-button-play-button-icon-angle-text-thumbnail.png" alt="Play Icon">
+                <img src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/more-512.png" alt="More Icon">
+            </div>
+            <div class="text-wrapper">
+                <div class="p-top"><a href="#">Pistear</a></div>
+                <div class="p-bottom"><a href="#">Apple Music</a></div>
+            </div>
+        </div>
+
+                        <div class="four-image-card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/3e/17/87/3e178780-d6f1-85a1-e342-9577a9ba965b/U0MtTVMtV1ctSGlnaF9NYWludGVuYW5jZS1hZGFtPTE1MDA3MjMxODMtTm9fTG9nby5wbmc.png/316x316SC.DN01.webp?l=en-US" alt="Image 1">
+            <div class="overlay-icons">
+                <img src="https://e7.pngegg.com/pngimages/886/387/png-clipart-line-triangle-brand-play-button-play-button-icon-angle-text-thumbnail.png" alt="Play Icon">
+                <img src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/more-512.png" alt="More Icon">
+            </div>
+            <div class="text-wrapper">
+                <div class="p-top"><a href="#">High Maintanence</a></div>
+                <div class="p-bottom"><a href="#">Apple Music</a></div>
+            </div>
 </body>
+
+
 </html>

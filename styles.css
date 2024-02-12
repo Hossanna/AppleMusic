@@ -1,0 +1,392 @@
+html {
+      width: 100%;
+  }
+
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      background-color: #1F1F1F;
+      width: 100%;
+      /* overflow-x: hidden; */
+  }
+
+
+  #sidebar {
+      width: 20%;
+      background-color: #252526;
+      color: #fff;
+      padding-top: 20px;
+      position: fixed;
+      height: 100%;
+  }
+
+  #logo {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  #search-bar input {
+      background-color: transparent #171616a7;
+      padding: 10px;
+      margin-bottom: 20px;
+      width: 150px;
+      background-color: #171616a7;
+      border-radius: 5px;
+      margin-left: 16px;
+      margin-right: 19px;
+      color: #fff;
+      outline: none;
+  }
+
+  #navigation {
+      padding-left: 20px;
+  }
+
+  .nav-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+  }
+
+  .nav-item img {
+      margin-right: 10px;
+  }
+
+  a {
+      text-decoration: none;
+      color: #fff;
+  }
+
+  #content {
+      flex: 1;
+      padding: 20px;
+      background-color: #3c3b3baa;
+  }
+
+  .control-btn,
+  #volume-control {
+      background-color: #555;
+      padding: 10px;
+      margin-right: 10px;
+      cursor: pointer;
+  }
+
+  #volume-control img {
+      width: 20px;
+  }
+
+  #album-artwork img {
+      width: 20px;
+      height: 20px;
+      background-color: #333;
+      position: relative;
+      margin-right: 20px;
+  }
+
+  #track-info {
+      flex: 1;
+      text-align: center;
+  }
+
+  #que-btn,
+  #sign-in-btn {
+      background-color: #ff0000;
+      padding: 10px;
+      margin-right: 10px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+  }
+
+  #sign-in-btn img {
+      width: 20px;
+      margin-right: 5px;
+  }
+
+   #rectangular-section {
+      margin-top: 20px;
+      margin-left: 250px;
+  }
+
+  #rectangular-section-title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #fff;
+      margin-bottom: 10px;
+  }
+
+  .rectangular-image-container {
+      display: flex;
+      margin-bottom: 2px;
+      margin-left: 10px;
+  }
+
+  .rectangular-card {
+      flex: 0 0 auto;
+      width: 186px;
+      padding: 20px;
+      margin-right: 70px;
+      border-radius: 10px;
+  }
+
+  .rectangular-card img {
+      width: 150%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+  }
+
+  .rectangular-card h2,
+  .rectangular-card p {
+      margin: 0;
+      color: #fff;
+  }
+
+
+
+ #browse-section {
+     margin-top: 120px;
+     width: 80%;
+     float: right;
+     /* margin-left: 214px; */
+ }
+
+ #browse-section-title {
+     font-size: 40px;
+     font-weight: bold;
+     color: #fff;
+     margin-bottom: 10px;
+     margin-left: 24px;
+ }
+
+.underline {
+    border-top: 1px solid black;
+    margin-top: 5px;
+    margin-left: -10px;
+}
+
+ .header-text {
+     font-size: 24px;
+     font-weight: bold;
+     color: #fff;
+     margin-top: 20px;
+     /* Adjust as needed */
+ }
+
+.small {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+.big {
+    font-size: 23px;
+    margin-bottom: -20px;
+}
+
+ .browse-images-container {
+     display: flex;
+     align-items: center;
+ }
+
+.browse-image-card {
+    flex: 0 0 auto;
+    width: 420px;
+    padding: 50px;
+    margin-right: 55px;
+    margin-left: 40px;
+    margin-bottom: 34px;
+    border-radius: 10px;
+    transition: opacity 0.3s ease;
+}
+
+ .browse-image-card:hover {
+     opacity: 0.7;
+     /* Dimming effect on hover */
+ }
+.browse-image-card img {
+    width: 140%;
+    margin-left: -79px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.browse-image-card2 img {
+    width: 103%;
+    margin-left: -36px;
+    border-radius: 8px;
+    margin-bottom: 6px;
+        cursor: pointer;
+}
+
+ .arrow-container {
+     flex: 0 0 auto;
+ }
+
+ .arrow {
+     font-size: 24px;
+     color: #fff;
+     cursor: pointer;
+ }
+#four-images-section2 {
+    margin-top: 20px;
+    margin-left: 250px;
+    cursor: pointer;
+}
+
+#four-images-section-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-left: 53px;
+}
+
+
+.four-images-container {
+    display: flex;
+}
+
+.four-image-card {
+    position: relative;
+    flex: 0 0 auto;
+    width: 190px;
+    padding: 6px;
+    margin-right: -14px;
+    margin-left: 28px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: opacity 0.3s ease;
+}
+
+.four-image-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 32px;
+}
+
+.four-image-card:hover {
+    opacity: 0.8;
+}
+
+.overlay-icons {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.four-image-card:hover .overlay-icons {
+    opacity: 1;
+}
+.overlay-icons img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: -116px;
+}
+
+.text-wrapper {
+    position: absolute;
+    bottom: -3px;
+    left: 8px;
+    right: 0px;
+    text-align: left;
+}
+
+.text-wrapper .p-top,
+.text-wrapper .p-bottom {
+    color: #fff;
+}
+
+.text-wrapper .p-top a,
+.text-wrapper .p-bottom a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.text-wrapper .p-bottom {
+    margin-top: 0px;
+}
+
+  #navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      backface-visibility: visible;
+      padding: 10px;
+      height: 11%;
+      margin-left: 210px;
+      position: fixed;
+      width: 1110px;
+      z-index: 5;
+  }
+
+  .control-btn,
+  #volume-control,
+  #que-btn,
+  #sign-in-btn {
+      background-color: #555;
+      padding: 10px;
+      margin-right: 10px;
+      cursor: pointer;
+  }
+
+  .control-btn img,
+  #volume-control img,
+  #sign-in-btn img {
+      width: 20px;
+      height: 20px;
+  }
+
+  #shuffle-btn img {
+      width: 16px;
+      height: 16px;
+  }
+
+  #volume-control img {
+      width: 20px;
+  }
+
+  #album-artwork {
+      width: 50px;
+      height: 50px;
+      background-color: #333;
+      position: relative;
+      overflow: hidden;
+      border-radius: 5px;
+  }
+
+  #album-artwork img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+
+  #track-info {
+      flex: 1;
+      text-align: center;
+      color: #fff;
+  }
+
+  #sign-in-btn {
+      background-color: #ff0000;
+      display: flex;
+      align-items: center;
+  }
+
+  #sign-in-btn img {
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+  }
+
+  
