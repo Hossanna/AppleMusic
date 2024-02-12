@@ -15,7 +15,7 @@ html {
 
   #sidebar {
       width: 20%;
-      background-color: #171616a7;
+      background-color: #252526;
       color: #fff;
       padding-top: 20px;
       position: fixed;
@@ -207,10 +207,10 @@ html {
      /* Dimming effect on hover */
  }
 .browse-image-card img {
-    width: 109%;
-    margin-left: -37px;
+    width: 140%;
+    margin-left: -79px;
     border-radius: 8px;
-        cursor: pointer;
+    cursor: pointer;
 }
 
 .browse-image-card2 img {
@@ -252,7 +252,7 @@ html {
 .four-image-card {
     position: relative;
     flex: 0 0 auto;
-    width: 168px;
+    width: 190px;
     padding: 18px;
     margin-right: -14px;
     margin-left: 28px;
@@ -260,10 +260,11 @@ html {
     overflow: hidden;
     transition: opacity 0.3s ease;
 }
+
 .four-image-card img {
     width: 100%;
     border-radius: 8px;
-    margin-bottom: 10px;
+    margin-bottom: 32px;
 }
 
 .four-image-card:hover {
