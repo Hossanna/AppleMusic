@@ -322,12 +322,13 @@ html {
       align-items: center;
       margin-bottom: 20px;
       backface-visibility: visible;
-      padding: 10px;
+      padding: 10px 20px;
       height: 11%;
-      margin-left: 210px;
+      margin-left: 250px;
       position: fixed;
-      width: 1110px;
+      width: 1140px;
       z-index: 5;
+      background-color: #1F1F1F;
   }
 
   .control-btn,
