@@ -6,6 +6,10 @@
     color: #d5d5d5;
 }
 
+.flex{
+  display: flex;
+}
+
 body{
     display: flex;
 }
@@ -67,6 +71,24 @@ aside{
     height: 240px;
     
 }
+.big-section{
+  margin-top: 15%;
+}
+.big-section h1{
+  font-size: 2em;
+}
+
+.big-section a{
+  /* margin-bottom: 0; */
+  font-size: .5em !important;
+}
+
+.big-section div{
+    padding: 5px 25px;
+    padding-left: 7px;
+    min-width: 50%;
+    height: 450px;
+}
 
 .section2 .scroll-container {
     display: flex;
@@ -112,6 +134,34 @@ aside{
   .explore p,   .explore span{
     color: #fa586a ;
     background-color: #2a2a2a;
+  }
+
+  .newsongs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 31%;
+    margin: 0 1%;
+    padding: 1% 0% ;
+    border-top: 1px solid grey;
+    cursor: pointer;
+  }
+  
+  .newsongs span{
+    color: #fa586a ;
+
+  }
+
+  .newsongs img{
+    width: 15%;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+
+  .newsongs div{
+    /* display: flex; */
+    align-items: center;
+    color: #fff;
   }
 
   footer{
