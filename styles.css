@@ -328,7 +328,7 @@ html {
       position: fixed;
       width: 1140px;
       z-index: 5;
-      background-color: #1F1F1F;
+      background-color: rgb(44 44 44);
   }
 
   .control-btn,
