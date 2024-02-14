@@ -31,6 +31,11 @@ aside{
     background-color: hsl(240deg 1.33% 14.71%);
     height: 100vw;
     position: fixed;
+    border-right: 1px solid #ffffff4c;
+}
+
+aside img{
+  color: #fff !important;
 }
 
 .section{
@@ -76,22 +81,21 @@ aside{
     
 }
 .big-section{
-  margin-top: 15%;
+  margin-top: 10%;
 }
 .big-section h1{
   font-size: 2em;
 }
 
 .big-section a{
-  /* margin-bottom: 0; */
-  font-size: .5em !important;
+  font-size: .85em !important;
 }
 
 .big-section div{
     padding: 5px 25px;
     padding-left: 7px;
     min-width: 50%;
-    height: 450px;
+    height: fit-content;
 }
 
 .section2 .scroll-container {

@@ -17,37 +17,50 @@ html {
       width: 20%;
       background-color: #252526;
       color: #fff;
-      padding-top: 20px;
+      padding: 2% 0;
       position: fixed;
       height: 100%;
   }
 
   #logo {
-      text-align: center;
-      margin-bottom: 20px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  #search-bar{
+      margin:  5% auto;
+      width: 80%;
   }
 
   #search-bar input {
       background-color: transparent #171616a7;
-      padding: 10px;
-      margin-bottom: 20px;
-      width: 150px;
+      padding: 10px 15px;
+      width: 100%;
       background-color: #171616a7;
       border-radius: 5px;
-      margin-left: 16px;
-      margin-right: 19px;
+      border: 1px solid #ffffff4c;
       color: #fff;
       outline: none;
   }
 
   #navigation {
-      padding-left: 20px;
+      width: 100%;
+      padding: 7% 10%;
+      border-bottom: 1px solid black;
+
   }
 
   .nav-item {
       display: flex;
       align-items: center;
       margin-bottom: 10px;
+      padding: 2%;
+      border-radius: 5px;
+  }
+
+  .nav-item:hover{
+    background-color: #333;
   }
 
   .nav-item img {
@@ -316,36 +329,49 @@ html {
     margin-top: 0px;
 }
 
-  #navbar {
+  .navbar {
       display: flex;
-      justify-content: space-between;
+      /* justify-content: space-between; */
       align-items: center;
-      margin-bottom: 20px;
-      backface-visibility: visible;
-      padding: 10px 20px;
-      height: 11%;
-      margin-left: 250px;
+      width: 80%;
+      margin: 0% 0 2%;
+      margin-left: 20%;
+      padding: 1% 2%;
       position: fixed;
-      width: 1140px;
       z-index: 5;
       background-color: rgb(44 44 44);
+  }
+
+  .empty{
+    width: 500px;
+    height: 50px;
+    margin-left: 50px;
+    margin-right: 150px;
+    background-color: #424040;
+  }
+
+  #signin{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 1% 2%;
   }
 
   .control-btn,
   #volume-control,
   #que-btn,
   #sign-in-btn {
-      background-color: #555;
+      background-color: rgb(44 44 44);
       padding: 10px;
-      margin-right: 10px;
+      margin-right: 20px;
       cursor: pointer;
   }
 
   .control-btn img,
   #volume-control img,
   #sign-in-btn img {
-      width: 20px;
-      height: 20px;
+      width: 30px;
+      height: 30px;
   }
 
   #shuffle-btn img {
