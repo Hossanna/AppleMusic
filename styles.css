@@ -9,7 +9,6 @@ html {
       display: flex;
       background-color: #1F1F1F;
       width: 100%;
-      /* overflow-x: hidden; */
   }
 .kanit-thin body {
     font-family: "Kanit", sans-serif;
