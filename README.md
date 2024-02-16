@@ -10,8 +10,7 @@ The Apple Music Clone project aims to recreate the look and feel of the Apple Mu
 ![Alt text](./screenshots/Screenshot3.png)
 
 🎥 Screen Recordings
-[Watch Video](./screenshots/screen-record1.mp4)
-[Watch Video](./screenshots/screen-record2.mp4)
+![Browsing Music GIF](./screenshots/screen-record1-ezgif.com-speed.gif)
 
 Installation
 Clone the repository: Click on the "Clone" or "Download" button on this page, or use the following command:
