@@ -22,12 +22,6 @@ Install dependencies: Open the project folder in your terminal and run:
 Copy code
 npm install
 
-## Usage
-
-- **Open in Browser**: Once the server is running, open your web browser and go to `http://localhost:3000`.
-- **Explore**: Click around the website to browse music, search for songs, and create playlists.
-- **Enjoy**: Listen to your favourite tunes just like you would on Apple Music!
-
 ## 🤝 Contributing
 
 This project was created by [Lawani-EJ](https://github.com/Lawani-EJ) and [Hosanna](https://github.com/Hossanna).
