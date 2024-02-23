@@ -1,18 +1,18 @@
-🍏 Apple Music Clone
+## 🍏 Apple Music Clone
 This project is a simplified version of the Apple Music website, built using basic web technologies like HTML and CSS.
 
-Description
+## Description
 The Apple Music Clone project aims to recreate the look and feel of the Apple Music website. It allows users to browse music, search for songs, and create playlists, just like the real site.
 
-🖼️ Screenshots
+## 🖼️ Screenshots
 ![Alt text](./screenshots/Screenshot1.png)
 ![Alt text](./screenshots/Screenshot2.png)
 ![Alt text](./screenshots/Screenshot3.png)
 
-🎥 Screen Recordings
+## 🎥 Screen Recordings
 ![Browsing Music GIF](./screenshots/screen-record1-ezgif.com-speed.gif)
 
-Installation
+## Installation
 Clone the repository: Click on the "Clone" or "Download" button on this page, or use the following command:
 bash
 Copy code
@@ -28,7 +28,4 @@ This project was created by [Lawani-EJ](https://github.com/Lawani-EJ) and [Hosan
 
 Contributions are welcome! Feel free to report bugs, suggest new features, or contribute code by submitting pull requests.
 
-## 📝 License
-
-This project is licensed under the [MIT License](LICENSE).
 
